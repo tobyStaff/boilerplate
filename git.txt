@@ -7,7 +7,7 @@ Go to the following URL: http://www.chiark.greenend.org.uk/~sgtatham/putty/downl
 
 Download PuTTYgen: puttygen.exe
 
-Log into GitLab: http://gitlab.addison-group.co/users/sign_in
+Log into GitLab
 
 Go to Profile -> edit profile settings -> SSH Keys -> Add SSH key.
 
