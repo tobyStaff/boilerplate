@@ -1,0 +1,36 @@
+/* ----------------------------------------------------------------------- *\
+ 	Code Rules
+ 	> Only style elements with classes i.e not ID's and not element names,
+ 	unless there is good reason to use element names.
+ 	> Don't use !important. 
+ 	> Each element & each component to have a new name and new file.  
+\* ----------------------------------------------------------------------- */
+/* ------------- *\
+ 	BASE
+\* ------------- */
+//  Bootstrap
+@import 'bootstrap';
+//  Specific
+@import 'main/base/variables';
+@import 'main/base/mixins';
+@import 'main/base/html';
+@import 'main/base/utility';
+/* --------------------------------------------------------- *\
+ 	ELEMENTS
+ 	> Small page elements that can be used within components
+ 	e.g Buttons.
+\* ---------------------------------------------------------- */
+@import 'main/elements/element';
+/* --------------------------------------------------------- *\
+ 	COMPONENTS
+ 	> Larger page components made up of Elements and context
+ 	based styles. 
+ 	e.g A news article, a twitter card, a form. 
+\* ---------------------------------------------------------- */
+@import 'main/components/component';
+/* ---------------------------------------------------------- *\
+ 	STATE
+ 	> Any Element state changes should be written here and labeled
+ 	clearly. 
+\* ---------------------------------------------------------- */
+@import 'main/states/state';
